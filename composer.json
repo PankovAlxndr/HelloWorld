@@ -1,0 +1,22 @@
+{
+    "name": "apankov/hello",
+    "description": "Test publishing on packagist",
+    "type": "library",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Aleksandr Pankov",
+            "email": "pankovalxndr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "APankov\\Hello\\": "src/APankov/"
+        }
+    },
+    "minimum-stability": "stable"
+}
